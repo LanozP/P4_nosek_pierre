@@ -8,7 +8,7 @@ body {
 }
 
 a,
-button {
+button { 
     transition: all .3s ease-in-out;
     outline: none!important;
 }
@@ -101,6 +101,7 @@ a:hover {
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
+    width: 100%;
 }
 
 .d-bloc button:hover {
@@ -232,6 +233,8 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
+    font-size: 18px;
+    font-weight: 900;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -302,6 +305,7 @@ a:hover {
 }
 
 .navbar-brand img {
+    height: 40px;
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
@@ -438,6 +442,12 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+.mg-md_2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 11px;
 }
 
 .mg-lg {
@@ -677,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -737,6 +747,13 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.white_2 {
+    color: #FFFFFF!important;
+    font-size: 14px;
 }
 
 .portfolio-thumb {
@@ -774,8 +791,16 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #F3976C!important;
+.tc-black {
+    color: black!important;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+
+.tc-black_2 {
+    color: black!important;
+    font-size: 22px;
 }
 
 .btn-atomic-tangerine {
@@ -790,6 +815,7 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
+    font-size: 15px;
 }
 
 .ltc-white:hover {
