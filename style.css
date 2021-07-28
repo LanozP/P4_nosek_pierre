@@ -450,7 +450,7 @@ nav .caret {
 }
 
 .mg-lg {
-  margin-top: 10px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -526,7 +526,7 @@ button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 0;
+  opacity: 1;
   z-index: 500;
   transition: all 0.3s ease-in-out;
 }
@@ -692,7 +692,7 @@ p {
 }
 
 .tight-width-whitespace {
-  max-width: 600px;
+  max-width: 800px;
   margin: auto auto auto auto;
 }
 
@@ -747,11 +747,16 @@ h4 {
   margin-top: 24px;
 }
 
+.big_title {
+  font-size: 50px;
+}
+
 .white {
   color: #ffffff !important;
   font-size: 18px;
   font-weight: 900;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .white_2 {
@@ -799,6 +804,15 @@ h4 {
   background-color: #f3976c;
 }
 
+.col-sm-6 {
+  text-align: center;
+}
+
+.contact_align {
+  font-size: 18px;
+  width: 100%;
+}
+
 .tc-black {
   color: black !important;
   font-size: 28px;
@@ -844,7 +858,8 @@ h4 {
 }
 
 .bg-dots-bg {
-  background-image: url("img/dots-bg.png");
+  background-image: url(img/la-chouette-agence-banniere.jpg);
+  opacity: 0.8;
 }
 
 .bg-lines-h2-bg {
